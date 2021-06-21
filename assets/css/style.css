@@ -236,58 +236,50 @@ section {
   line-height: 1.3;
   }
  
-  /* style reach out */
-  
-  .section-title {
-    font-size: 55px;
-    padding: 0;
-    border-bottom: 3px solid;
-    margin-bottom: 35px;  
-    }
+ /* REACH OUT STYLES START */
+.contact {
+  text-align: center;
+  background: #024e76;
+}
 
-   .contact {
-    text-align: center;
-    background: #024e76;
-  }
-  .contact h2 {
-    color: #fce138;
-  }
-  .contact-info iframe {
-    width: 400px;
-    height: 400px;
-  }
-  .contact-info {
-    width: 410px;
-    display: inline-block;
-    text-align: left;
-    margin: 30px 0 0 60px;
-    color: white;
-     }
-  .demographics h3 {
-    color: #fce138;
-    font-size: 32px;
-  }
-  
-  .demographics p, .demographics address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 20px;
-    font-style: normal;
-     }
-  
-  .demographics h3{
-    color: #fce138;
-  }
+.contact h2 {
+  color: #fce138;
+}
 
-  .demographics {
-    display: inline-block;
-    vertical-align: top;
-    text-align: right;
-    margin: 30px 0 0 60px;
-    
-  }  
-  
-  
+.contact-info iframe {
+  width: 400px;
+  height: 400px;
+}
+
+.contact-info div {
+  width: 410px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin: 30px 0 0 60px;
+  color: white;
+}
+
+.contact-info h3 {
+  color: #fce138;
+  font-size: 32px;
+}
+
+.contact-info p, .contact-info address {
+  margin: 20px 0;
+  line-height: 1.5;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.contact-info a {
+  color: #fce138;
+}
+
+
+/* REACH OUT STYLES END */
+
+
 
 
 
