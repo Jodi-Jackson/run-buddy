@@ -84,7 +84,7 @@ Add the following two declar
 
 /*apply styles to div class hero-form*/
 
-.hero-form{ 
+.hero-form { 
   background-color: #fce138;
   padding: 20px;
   width: 40%;
@@ -148,9 +148,7 @@ Add the following two declar
 }
 
 /*syle what we do section*/
-.intro {
-  text-align: center;
-}
+
 
 .intro h2 {
     display: inline-block;
@@ -161,12 +159,12 @@ Add the following two declar
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 /*syle what you do section*/
 
 .steps { 
-  text-align: center;
-  background: #fce138;
+   background: #fce138;
 }
 .steps {
   margin-bottom: 80px;
@@ -191,9 +189,7 @@ Add the following two declar
 }
 
 /*style meet the trainers*/
-.trainers {
-  text-align: center;
-}
+
 
 .trainer {
   width: 900px;
@@ -241,8 +237,7 @@ Add the following two declar
  
  /* REACH OUT STYLES START */
 .contact {
-  text-align: center;
-  background: #024e76;
+    background: #024e76;
 }
 
 .contact h2 {
@@ -281,6 +276,16 @@ Add the following two declar
 
 
 /* REACH OUT STYLES END */
+
+.flex-row {
+  display: flex;
+}
+.section-title{
+padding-bottom: 20;
+text-align: center;
+margin: 0 auto 35px auto;
+width: 50%;
+}
 
 /* apply styles to <footer> */
 footer {
