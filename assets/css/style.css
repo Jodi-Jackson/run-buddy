@@ -146,7 +146,7 @@ section {
   border-color: #39a6b2;
 }
 
-/*syle what we do section*/
+/*begin syle what we do section*/
 
 
 .intro h2 {
@@ -160,7 +160,9 @@ section {
   margin: 0 auto;
   text-align: center;
 }
-/*syle what you do section*/
+/*end syle what we do section*/
+
+/*begin style what you do section*/
 
 .step h3 {
   color: #024e76;
@@ -211,42 +213,36 @@ section {
   align-items: center;
   justify-content: space-between;
 }
+/*end style what you do section*/
 
-/*style meet the trainers*/
-
+/*begin style meet the trainers section */
+.trainers {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 .trainer {
-  width: 900px;
-  margin: 0 auto 30px auto;
+  margin: 20px;
+  flex: 1;
   background: #024e76;
   color: #fce138;
 }
 
 .trainer img {
-  width: 35%;
-  float: left;
+  width: 100%;
 }
 
 .trainer-bio {
-  padding: 35px;
-  float: left;
-  width: 65%;
+  padding: 25px;
   line-height: 1.3;
-}
-.trainer {
-  overflow: auto;
-}
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .trainer-bio h3 {
   font-size: 28px;
-  }
+}
 
 .trainer-bio h4 {
   font-weight: lighter;
@@ -255,10 +251,10 @@ section {
 }
 
 .trainer-bio p {
-  
   font-size: 17px;
+}
+/* end meet the trainers styling */
 
-  }
  
  /* REACH OUT STYLES START */
 .contact {
